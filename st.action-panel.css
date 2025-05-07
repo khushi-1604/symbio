@@ -1,0 +1,193 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400);
+
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css);
+
+.st-actionContainer {
+	z-index: 9999;
+	position: fixed;
+	display: inline-block;
+}
+
+.right-top {
+	top: 2em;
+	right: 2em;
+	float: right !important;
+}
+
+.right-bottom {
+    bottom: 1em;
+    right: 1em;
+    float: right !important;
+}
+
+.left-bottom {
+	bottom: 2em;
+	left: 2em;
+	float: left !important;
+}
+
+div.st-actionContainer li{
+	list-style: none;
+}
+
+.st-panel {
+    width: auto;
+    margin-bottom: -58px;
+    margin-right: -5px;
+    background-color: #009a4f !important;
+    color: white !important;
+    border: 2px solid #eee;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    border-radius: 5px;
+    display: none;
+}
+
+div.st-panel{
+	font-family: Roboto;
+	font-size: 15px !important;
+}
+
+.st-panel-header {
+    background-color: #009a4f !important;
+    color: white !important;
+    padding: 5px 20px 0;
+    font-weight: 600;
+}
+.st-panel-contents{
+	padding: 15px;
+}
+
+.st-button-main{
+	font-size:24px !important;
+	color:#ffffff !important;
+	text-align:center;
+	line-height:60px;
+	cursor:pointer;
+	height: 100%;
+	width: 100%;
+	display: table;
+}
+
+.st-button-main > i{
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.st-btn-container{
+	background:#transparent !important;
+	width:60px;
+	height:60px;
+	border-radius:100%;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.rotateForward{
+    animation-name:             rotateF;
+    animation-duration:         0.65s;
+    animation-iteration-count:  1;
+
+}
+
+@keyframes rotateF {
+  from {
+            transform: rotate(0deg);
+            -ms-transform: rotate(0deg);
+            -webkit-transform: rotate(0deg);
+  }
+  to {
+            transform: rotate(360deg);
+            -ms-transform: rotate(360deg);
+            -webkit-transform: rotate(360deg);
+  }
+}
+
+.rotateBackward{
+    animation-name:             rotateB;
+    animation-duration:         0.65s;
+    animation-iteration-count:  1;
+
+}
+
+@keyframes rotateB {
+  from {
+            transform: rotate(360deg);
+            -ms-transform: rotate(360deg);
+            -webkit-transform: rotate(360deg);
+  }
+  to {
+            transform: rotate(0deg);
+            -ms-transform: rotate(0deg);
+            -webkit-transform: rotate(0deg);
+  }
+}
+
+/*option grid in panel*/
+
+.grid {
+    display: block;
+    width: 400px;
+    justify-content: space-around;
+    height: 560px;
+    margin: 5px;
+    background: #009a4f !important;
+}
+
+.gridChild {
+    float: left;
+    font-family: 'Roboto', sans-serif  !important;
+    font-size:15px !important;
+    height: 100%;
+    background-color: #fefefe !important;
+    text-align: center;
+    text-decoration: none;
+    color: #2f2f2f !important;
+    line-height: 50px !important;
+    width: 100%;
+    border: 1px solid #000;
+    letter-spacing: normal !important;
+    font-weight: normal !important;     
+}
+
+.gridChild img {
+    display: block;
+    margin: 0px auto 0;
+    width: 100%;
+    height: auto;
+}
+
+.gridChild:hover {
+	background-color: #eee !important;
+	color: black !important;
+}
+
+.gridChild h2 {
+    text-align: justify;
+    padding-left: 15px;
+    font-weight: 600;
+    line-height: 20px;
+    margin: 5px 0 0;
+    font-size: 13px;
+}
+
+.gridChild p{
+	text-align: justify;
+	padding: 0px 15px;
+	font-size: 12px;
+	font-weight: 500;
+	line-height: 15px;
+	margin:0;
+}
+
+@media only screen and (max-width: 767px){
+.st-panel {
+    margin-bottom: 0px;
+}
+.grid {
+    width: 325px;
+    height: 500px;
+    overflow: scroll;
+}
+.gridChild {
+    height: auto;
+}
+}

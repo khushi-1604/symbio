@@ -1,0 +1,13 @@
+
+
+.engt .engt-popup .engt-pages .engt-common-header {
+    border-radius: 0px;
+}
+.engt div, .engt input {
+  --engt-border-radius: 6px;}
+
+
+.engt .engt-launch-icon-box .engt-launcher-icon {
+  height: 60px !important;
+    max-height: 60px !important;
+}

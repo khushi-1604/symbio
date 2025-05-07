@@ -1,0 +1,180 @@
+@font-face{font-family:'Open Sans';src:url('OpenSans-Semibold.eot');src:url('OpenSans-Semibold.eot?#iefix') format('embedded-opentype'),
+url('OpenSans-Semibold.woff2') format('woff2'),
+url('OpenSans-Semibold.woff') format('woff'),
+url('OpenSans-Semibold.svg#OpenSans-Semibold') format('svg');font-weight:600;font-style:normal;}
+@font-face{font-family:'Open Sans';src:url('OpenSans-Italic.eot');src:url('OpenSans-Italic.eot?#iefix') format('embedded-opentype'),
+url('OpenSans-Italic.woff2') format('woff2'),
+url('OpenSans-Italic.woff') format('woff'),
+url('OpenSans-Italic.svg#OpenSans-Italic') format('svg');font-weight:normal;font-style:italic;}
+@font-face{font-family:'Open Sans';src:url('OpenSans-Bold.eot');src:url('OpenSans-Bold.eot?#iefix') format('embedded-opentype'),
+url('OpenSans-Bold.woff2') format('woff2'),
+url('OpenSans-Bold.woff') format('woff'),
+url('OpenSans-Bold.svg#OpenSans-Bold') format('svg');font-weight:bold;font-style:normal;}
+@font-face{font-family:'Open Sans';src:url('OpenSans-ExtraboldItalic.eot');src:url('OpenSans-ExtraboldItalic.eot?#iefix') format('embedded-opentype'),
+url('OpenSans-ExtraboldItalic.woff2') format('woff2'),
+url('OpenSans-ExtraboldItalic.woff') format('woff'),
+url('OpenSans-ExtraboldItalic.svg#OpenSans-ExtraboldItalic') format('svg');font-weight:800;font-style:italic;}
+@font-face{font-family:'Open Sans';src:url('OpenSans-SemiboldItalic.eot');src:url('OpenSans-SemiboldItalic.eot?#iefix') format('embedded-opentype'),
+url('OpenSans-SemiboldItalic.woff2') format('woff2'),
+url('OpenSans-SemiboldItalic.woff') format('woff'),
+url('OpenSans-SemiboldItalic.svg#OpenSans-SemiboldItalic') format('svg');font-weight:600;font-style:italic;}
+@font-face{font-family:'Open Sans';src:url('OpenSans-BoldItalic.eot');src:url('OpenSans-BoldItalic.eot?#iefix') format('embedded-opentype'),
+url('OpenSans-BoldItalic.woff2') format('woff2'),
+url('OpenSans-BoldItalic.woff') format('woff'),
+url('OpenSans-BoldItalic.svg#OpenSans-BoldItalic') format('svg');font-weight:bold;font-style:italic;}
+@font-face{font-family:'Open Sans';src:url('OpenSans-Extrabold.eot');src:url('OpenSans-Extrabold.eot?#iefix') format('embedded-opentype'),
+url('OpenSans-Extrabold.woff2') format('woff2'),
+url('OpenSans-Extrabold.woff') format('woff'),
+url('OpenSans-Extrabold.svg#OpenSans-Extrabold') format('svg');font-weight:800;font-style:normal;}
+@font-face{font-family:'Open Sans';src:url('OpenSans-Light.eot');src:url('OpenSans-Light.eot?#iefix') format('embedded-opentype'),
+url('OpenSans-Light.woff2') format('woff2'),
+url('OpenSans-Light.woff') format('woff'),
+url('OpenSans-Light.svg#OpenSans-Light') format('svg');font-weight:300;font-style:normal;}
+@font-face{font-family:'Open Sans';src:url('OpenSansLight-Italic.eot');src:url('OpenSansLight-Italic.eot?#iefix') format('embedded-opentype'),
+url('OpenSansLight-Italic.woff2') format('woff2'),
+url('OpenSansLight-Italic.woff') format('woff'),
+url('OpenSansLight-Italic.svg#OpenSansLight-Italic') format('svg');font-weight:300;font-style:italic;}
+@font-face{font-family:'Open Sans';src:url('OpenSans.eot');src:url('OpenSans.eot?#iefix') format('embedded-opentype'),
+url('OpenSans.woff2') format('woff2'),
+url('OpenSans.woff') format('woff'),
+url('OpenSans.svg#OpenSans') format('svg');font-weight:normal;font-style:normal;}
+@font-face{font-family:'Titillium Web';src:url('TitilliumWeb-Light.eot');src:url('TitilliumWeb-Light.eot?#iefix') format('embedded-opentype'),
+url('TitilliumWeb-Light.woff2') format('woff2'),
+url('TitilliumWeb-Light.woff') format('woff'),
+url('TitilliumWeb-Light.ttf') format('truetype'),
+url('TitilliumWeb-Light.svg#TitilliumWeb-Light') format('svg');font-weight:300;font-style:normal;}
+@font-face{font-family:'Titillium Web';src:url('TitilliumWeb-ExtraLightItalic.eot');src:url('TitilliumWeb-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
+url('TitilliumWeb-ExtraLightItalic.woff2') format('woff2'),
+url('TitilliumWeb-ExtraLightItalic.woff') format('woff'),
+url('TitilliumWeb-ExtraLightItalic.ttf') format('truetype'),
+url('TitilliumWeb-ExtraLightItalic.svg#TitilliumWeb-ExtraLightItalic') format('svg');font-weight:200;font-style:italic;}
+@font-face{font-family:'Titillium Web';src:url('TitilliumWeb-LightItalic.eot');src:url('TitilliumWeb-LightItalic.eot?#iefix') format('embedded-opentype'),
+url('TitilliumWeb-LightItalic.woff2') format('woff2'),
+url('TitilliumWeb-LightItalic.woff') format('woff'),
+url('TitilliumWeb-LightItalic.ttf') format('truetype'),
+url('TitilliumWeb-LightItalic.svg#TitilliumWeb-LightItalic') format('svg');font-weight:300;font-style:italic;}
+@font-face{font-family:'Titillium Web';src:url('TitilliumWeb-ExtraLight.eot');src:url('TitilliumWeb-ExtraLight.eot?#iefix') format('embedded-opentype'),
+url('TitilliumWeb-ExtraLight.woff2') format('woff2'),
+url('TitilliumWeb-ExtraLight.woff') format('woff'),
+url('TitilliumWeb-ExtraLight.ttf') format('truetype'),
+url('TitilliumWeb-ExtraLight.svg#TitilliumWeb-ExtraLight') format('svg');font-weight:200;font-style:normal;}
+@font-face{font-family:'Titillium Web';src:url('TitilliumWeb-Regular.eot');src:url('TitilliumWeb-Regular.eot?#iefix') format('embedded-opentype'),
+url('TitilliumWeb-Regular.woff2') format('woff2'),
+url('TitilliumWeb-Regular.woff') format('woff'),
+url('TitilliumWeb-Regular.ttf') format('truetype'),
+url('TitilliumWeb-Regular.svg#TitilliumWeb-Regular') format('svg');font-weight:normal;font-style:normal;}
+@font-face{font-family:'Titillium Web';src:url('TitilliumWeb-Italic.eot');src:url('TitilliumWeb-Italic.eot?#iefix') format('embedded-opentype'),
+url('TitilliumWeb-Italic.woff2') format('woff2'),
+url('TitilliumWeb-Italic.woff') format('woff'),
+url('TitilliumWeb-Italic.ttf') format('truetype'),
+url('TitilliumWeb-Italic.svg#TitilliumWeb-Italic') format('svg');font-weight:normal;font-style:italic;}
+@font-face{font-family:'Titillium Web';src:url('TitilliumWeb-SemiBold.eot');src:url('TitilliumWeb-SemiBold.eot?#iefix') format('embedded-opentype'),
+url('TitilliumWeb-SemiBold.woff2') format('woff2'),
+url('TitilliumWeb-SemiBold.woff') format('woff'),
+url('TitilliumWeb-SemiBold.ttf') format('truetype'),
+url('TitilliumWeb-SemiBold.svg#TitilliumWeb-SemiBold') format('svg');font-weight:600;font-style:normal;}
+@font-face{font-family:'Titillium Web';src:url('TitilliumWeb-SemiBoldItalic.eot');src:url('TitilliumWeb-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+url('TitilliumWeb-SemiBoldItalic.woff2') format('woff2'),
+url('TitilliumWeb-SemiBoldItalic.woff') format('woff'),
+url('TitilliumWeb-SemiBoldItalic.ttf') format('truetype'),
+url('TitilliumWeb-SemiBoldItalic.svg#TitilliumWeb-SemiBoldItalic') format('svg');font-weight:600;font-style:italic;}
+@font-face{font-family:'Titillium Web';src:url('TitilliumWeb-Bold.eot');src:url('TitilliumWeb-Bold.eot?#iefix') format('embedded-opentype'),
+url('TitilliumWeb-Bold.woff2') format('woff2'),
+url('TitilliumWeb-Bold.woff') format('woff'),
+url('TitilliumWeb-Bold.ttf') format('truetype'),
+url('TitilliumWeb-Bold.svg#TitilliumWeb-Bold') format('svg');font-weight:bold;font-style:normal;}
+@font-face{font-family:'Titillium Web';src:url('TitilliumWeb-BoldItalic.eot');src:url('TitilliumWeb-BoldItalic.eot?#iefix') format('embedded-opentype'),
+url('TitilliumWeb-BoldItalic.woff2') format('woff2'),
+url('TitilliumWeb-BoldItalic.woff') format('woff'),
+url('TitilliumWeb-BoldItalic.ttf') format('truetype'),
+url('TitilliumWeb-BoldItalic.svg#TitilliumWeb-BoldItalic') format('svg');font-weight:bold;font-style:italic;}
+@font-face{font-family:'Titillium Web';src:url('TitilliumWeb-Black.eot');src:url('TitilliumWeb-Black.eot?#iefix') format('embedded-opentype'),
+url('TitilliumWeb-Black.woff2') format('woff2'),
+url('TitilliumWeb-Black.woff') format('woff'),
+url('TitilliumWeb-Black.ttf') format('truetype'),
+url('TitilliumWeb-Black.svg#TitilliumWeb-Black') format('svg');font-weight:900;font-style:normal;}
+@font-face{font-family:'Roboto';src:url('Roboto-MediumItalic.eot');src:url('Roboto-MediumItalic.eot?#iefix') format('embedded-opentype'),
+url('Roboto-MediumItalic.woff2') format('woff2'),
+url('Roboto-MediumItalic.woff') format('woff'),
+url('Roboto-MediumItalic.ttf') format('truetype'),
+url('Roboto-MediumItalic.svg#Roboto-MediumItalic') format('svg');font-weight:500;font-style:italic;}
+@font-face{font-family:'Roboto';src:url('Roboto-Regular.eot');src:url('Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+url('Roboto-Regular.woff2') format('woff2'),
+url('Roboto-Regular.woff') format('woff'),
+url('Roboto-Regular.ttf') format('truetype'),
+url('Roboto-Regular.svg#Roboto-Regular') format('svg');font-weight:normal;font-style:normal;}
+@font-face{font-family:'Roboto';src:url('Roboto-Black.eot');src:url('Roboto-Black.eot?#iefix') format('embedded-opentype'),
+url('Roboto-Black.woff2') format('woff2'),
+url('Roboto-Black.woff') format('woff'),
+url('Roboto-Black.ttf') format('truetype'),
+url('Roboto-Black.svg#Roboto-Black') format('svg');font-weight:900;font-style:normal;}
+@font-face{font-family:'Roboto';src:url('Roboto-Medium.eot');src:url('Roboto-Medium.eot?#iefix') format('embedded-opentype'),
+url('Roboto-Medium.woff2') format('woff2'),
+url('Roboto-Medium.woff') format('woff'),
+url('Roboto-Medium.ttf') format('truetype'),
+url('Roboto-Medium.svg#Roboto-Medium') format('svg');font-weight:500;font-style:normal;}
+@font-face{font-family:'Roboto';src:url('Roboto-BlackItalic.eot');src:url('Roboto-BlackItalic.eot?#iefix') format('embedded-opentype'),
+url('Roboto-BlackItalic.woff2') format('woff2'),
+url('Roboto-BlackItalic.woff') format('woff'),
+url('Roboto-BlackItalic.ttf') format('truetype'),
+url('Roboto-BlackItalic.svg#Roboto-BlackItalic') format('svg');font-weight:900;font-style:italic;}
+@font-face{font-family:'Roboto';src:url('Roboto-Bold.eot');src:url('Roboto-Bold.eot?#iefix') format('embedded-opentype'),
+url('Roboto-Bold.woff2') format('woff2'),
+url('Roboto-Bold.woff') format('woff'),
+url('Roboto-Bold.ttf') format('truetype'),
+url('Roboto-Bold.svg#Roboto-Bold') format('svg');font-weight:bold;font-style:normal;}
+@font-face{font-family:'Roboto';src:url('Roboto-ThinItalic.eot');src:url('Roboto-ThinItalic.eot?#iefix') format('embedded-opentype'),
+url('Roboto-ThinItalic.woff2') format('woff2'),
+url('Roboto-ThinItalic.woff') format('woff'),
+url('Roboto-ThinItalic.ttf') format('truetype'),
+url('Roboto-ThinItalic.svg#Roboto-ThinItalic') format('svg');font-weight:100;font-style:italic;}
+@font-face{font-family:'Roboto';src:url('Roboto-BoldItalic.eot');src:url('Roboto-BoldItalic.eot?#iefix') format('embedded-opentype'),
+url('Roboto-BoldItalic.woff2') format('woff2'),
+url('Roboto-BoldItalic.woff') format('woff'),
+url('Roboto-BoldItalic.ttf') format('truetype'),
+url('Roboto-BoldItalic.svg#Roboto-BoldItalic') format('svg');font-weight:bold;font-style:italic;}
+@font-face{font-family:'Roboto';src:url('Roboto-Thin.eot');src:url('Roboto-Thin.eot?#iefix') format('embedded-opentype'),
+url('Roboto-Thin.woff2') format('woff2'),
+url('Roboto-Thin.woff') format('woff'),
+url('Roboto-Thin.ttf') format('truetype'),
+url('Roboto-Thin.svg#Roboto-Thin') format('svg');font-weight:100;font-style:normal;}
+@font-face{font-family:'Roboto';src:url('Roboto-LightItalic.eot');src:url('Roboto-LightItalic.eot?#iefix') format('embedded-opentype'),
+url('Roboto-LightItalic.woff2') format('woff2'),
+url('Roboto-LightItalic.woff') format('woff'),
+url('Roboto-LightItalic.ttf') format('truetype'),
+url('Roboto-LightItalic.svg#Roboto-LightItalic') format('svg');font-weight:300;font-style:italic;}
+@font-face{font-family:'Roboto';src:url('Roboto-Italic.eot');src:url('Roboto-Italic.eot?#iefix') format('embedded-opentype'),
+url('Roboto-Italic.woff2') format('woff2'),
+url('Roboto-Italic.woff') format('woff'),
+url('Roboto-Italic.ttf') format('truetype'),
+url('Roboto-Italic.svg#Roboto-Italic') format('svg');font-weight:normal;font-style:italic;}
+@font-face{font-family:'Roboto';src:url('Roboto-Light.eot');src:url('Roboto-Light.eot?#iefix') format('embedded-opentype'),
+url('Roboto-Light.woff2') format('woff2'),
+url('Roboto-Light.woff') format('woff'),
+url('Roboto-Light.ttf') format('truetype'),
+url('Roboto-Light.svg#Roboto-Light') format('svg');font-weight:300;font-style:normal;}
+@font-face{font-family:'Georgia';src:url('Georgia-Bold.eot');src:url('Georgia-Bold.eot?#iefix') format('embedded-opentype'),
+url('Georgia-Bold.woff2') format('woff2'),
+url('Georgia-Bold.woff') format('woff'),
+url('Georgia-Bold.ttf') format('truetype'),
+url('Georgia-Bold.svg#Georgia-Bold') format('svg');font-weight:bold;font-style:normal;}
+@font-face{font-family:'Georgia';src:url('Georgia-Italic.eot');src:url('Georgia-Italic.eot?#iefix') format('embedded-opentype'),
+url('Georgia-Italic.woff2') format('woff2'),
+url('Georgia-Italic.woff') format('woff'),
+url('Georgia-Italic.ttf') format('truetype'),
+url('Georgia-Italic.svg#Georgia-Italic') format('svg');font-weight:normal;font-style:italic;}
+@font-face{font-family:'Georgia';src:url('Georgia.eot');src:url('Georgia.eot?#iefix') format('embedded-opentype'),
+url('Georgia.woff2') format('woff2'),
+url('Georgia.woff') format('woff'),
+url('Georgia.ttf') format('truetype'),
+url('Georgia.svg#Georgia') format('svg');font-weight:normal;font-style:normal;}
+@font-face{font-family:'Georgia';src:url('Georgia-BoldItalic.eot');src:url('Georgia-BoldItalic.eot?#iefix') format('embedded-opentype'),
+url('Georgia-BoldItalic.woff2') format('woff2'),
+url('Georgia-BoldItalic.woff') format('woff'),
+url('Georgia-BoldItalic.ttf') format('truetype'),
+url('Georgia-BoldItalic.svg#Georgia-BoldItalic') format('svg');font-weight:bold;font-style:italic;}
+@font-face{font-family:'fontawesome';src:url('fontawesome-webfont.eot'),
+url('fontawesome-webfont.woff2') format('woff2'),
+url('fontawesome-webfont.woff') format('woff'),
+url('fontawesome-webfont.ttf') format('truetype'),
+url('fontawesome-webfont.svg') format('svg');font-weight:300;font-style:normal;}
